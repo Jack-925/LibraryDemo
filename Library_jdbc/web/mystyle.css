@@ -1,0 +1,40 @@
+ body{
+                  background-image:url(bookstore.jpg) ;/* 图片地址 */
+            }
+            #container{
+                margin:100px auto; /* 最外层边框*/
+                width:500px; /* 调整宽度*/
+                height:400px;  /* 调整高度*/
+                text-align: center; 
+                font-size:40px;
+                font-style: italic;
+                padding:15px 50px; /* 每个盒子从外到内是margin，border，padding，content */
+                border-style: solid;
+            }
+            .header{
+                font-size: 30px; 
+                font-family: "Times New Roman", Times, serif;
+               border-style:dashed;
+               border-color: #cccccc;
+               margin-top: 10px;
+                  height:300px;
+            }
+            .loginWin{
+                 margin: 10px auto; 
+                 width: 300px;
+                height:200px;
+                 font-family: "Times New Roman", Times, serif;
+            }
+            .admin{
+                text-align: right;
+            }
+            #clientChoice{
+             width: 100%;
+             height: 80px;
+             font-size: 20px;
+             padding: 16px 20px;
+            border: solid;
+           border-radius: 4px;
+          
+
+            }

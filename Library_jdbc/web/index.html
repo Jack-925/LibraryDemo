@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+这是project首页
+作为登录界面使用。验证客户账户名与密码是否正确并提供注册功能
+
+id 选择器可以为标有特定 id 的 HTML 元素指定特定的样式。HTML元素以id属性来设置id选择器,CSS 中 id 选择器以 "#" 来定义。
+
+class 选择器用于描述一组元素的样式，class 选择器有别于id选择器，class可以在多个元素中使用。
+class 选择器在HTML中以class属性表示, 在 CSS 中，类选择器以一个点"."号显示：
+
+<tr> 是盒子中的一行， <td>表示一个单元格
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        <div id="container">Welcome to Jack_Library
+             <form action="verify.do" method="post">
+            <div class="header">Please input your name and password
+                <div class="loginWin">
+                    <table>
+                          <tr><td>Username</td><td><input type="text" name="id" ></td></tr>
+                          <tr><td>Password</td><td><input type="text" name="password" ></td></tr>
+                          <tr>
+                             <td><input type="submit" value="确定" ></td>
+                             <td><input type = "button" value = "注册" onclick = "window.location.href = 'register.jsp'"></td>   
+               
+                          </tr>
+                    </table>
+                </div>
+                 </form>
+                <div class="admin">
+                      <td><input type = "button" value = "管理员登录" onclick = "window.location.href = 'AdministratorVerify.jsp'"></td>    
+                </div>
+            
+        </div>
+        </div>
+    </body>
+</html>
